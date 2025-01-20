@@ -14,6 +14,6 @@ keywords:
 - unifi
 - controller
 - ubiquiti
-name: unifi-controller
+name: unifi
 type: application
-version: 2.6.2
+version: 2.6.3
