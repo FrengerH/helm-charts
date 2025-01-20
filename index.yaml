@@ -1,5 +1,29 @@
 apiVersion: v1
 entries:
+  unifi:
+  - annotations:
+      artifacthub.io/changes: |
+        - Add loadBalancerIP Configuration support
+      artifacthub.io/images: |
+        - name: unifi-controller
+          image: linuxserver/unifi-controller:8.0.24
+          platforms:
+            - linux/amd64
+            - linux/arm64
+    apiVersion: v2
+    appVersion: 8.0.24
+    created: "2025-01-20T15:46:02.371517465Z"
+    description: A Helm Chart for deploying a UniFi controller to Kubernetes
+    digest: 2b40239cc738284f41dee1158676203897893a2d0e2d85b857d5fcdfd1beea9b
+    keywords:
+    - unifi
+    - controller
+    - ubiquiti
+    name: unifi
+    type: application
+    urls:
+    - https://github.com/FrengerH/helm-charts/releases/download/unifi-2.6.3/unifi-2.6.3.tgz
+    version: 2.6.3
   unifi-controller:
   - annotations:
       artifacthub.io/changes: |
@@ -24,4 +48,4 @@ entries:
     urls:
     - https://github.com/FrengerH/helm-charts/releases/download/unifi-controller-2.6.2/unifi-controller-2.6.2.tgz
     version: 2.6.2
-generated: "2025-01-20T15:38:56.86249038Z"
+generated: "2025-01-20T15:46:02.371526653Z"
